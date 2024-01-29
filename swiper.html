@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>swiper</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <style>
+    body {
+      position: relative;
+      height: 100%;
+    }
+    body {
+      background: #a47878;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+    .nb {
+            background-color: aqua;
+            margin: 10px;
+            padding: 30px;
+        }
+
+        #title {
+            text-align: center;
+        }
+
+        .manchor:hover {
+            color: blue;
+        }
+
+        .content {
+            background: #73788a;
+            padding: 50px;
+        }
+    .main{
+        height: 100%;
+        width: 100%;
+        background-color: aqua;
+    }
+
+    .swiper {
+      width: 100%;
+      height: 100%;
+      background-color: aqua;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #73788a;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 70%;
+      height: 400px;
+      object-fit: cover;
+      padding: 20px;
+      margin: 20px 20px;
+    }
+
+    #aa{
+            color: blue;
+            text-align: center;
+           /* margin-bottom: 30px;*/
+        }
+        #te{
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        img{
+            width: 180px;
+            height: 170px;
+        }
+        .div{
+            display: flex;
+            justify-content: space-around;
+        }
+        #div1{
+            border: 2px solid rgb(2, 68, 22);
+            width: 200px;
+            border-radius: 5px;
+            color: white;
+            text-align: center;
+            background-color:rgb(2, 68, 22) ;
+            padding: 10px;
+            font-weight: 300;
+        }
+        #div2{
+            border: 2px solid rgb(2, 68, 22);
+            width: 200px;
+            border-radius: 5px;
+            color: white;
+            text-align: center;
+            background-color:rgb(2, 68, 22) ;
+            padding: 10px;
+            font-weight: 300;
+        }
+        #div3{
+            border: 2px solid rgb(2, 68, 22);
+            width: 200px;
+            border-radius: 5px;
+            color: white;
+            text-align: center;
+            background-color:rgb(2, 68, 22) ;
+            padding: 10px;
+            font-weight: 300;
+        }
+        #and{
+            text-align: center;
+        }
+        .serve{
+            
+            background: #73788a;
+        }
+        .news{
+            
+            background: #73788a;    
+        }
+    </style>
+     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-secondary ">
+        <a class="navbar-brand " href="#">JANAMSTHAN</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link manchor" href="homepage.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link manchor" href="#">Service <span class="sr-only manchor">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link manchor" href="swiper.html">About <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link manchor" href="contactus_check.html">Contact <span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link manchor" href="quicksupport1.html">Quick Support <span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <form class="form-inline">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="main">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="slide1.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="slide2.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="slide3.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="slide4.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="slide5.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="slide6.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="slide7.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="slide8.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="slide9.jpg" alt=""></div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+    </div>
+    <div class="content">
+        <p id="aa">| Our Team</p> 
+        <div class="team">
+         <div class="div">
+             <div id="div1">
+                 <img src="jha_jii.jpg" alt="Dr.K.S.JHA" >
+                 <h3>Dr.K.S.Jha</h3>
+                 <p>(M.B.B.S, C.A.S, SENIOR CONSULTANT)</p>
+             </div>
+             <div id="div2">
+                 <img src="doc1.png" alt="Dr.Gaurav.Kr.JHA" >
+                 <h3>Dr.Gaurav.Kr..</h3>
+                 <p>(M.D, FAMILY MEDICINE SPECIALIST)</p>
+             </div>
+             <div id="div3">
+                 <img src="aryan.jpeg" alt="Dr.Aryan.Kr.Singh" >
+                 <h3>Dr.Aryan.Kr..</h3>
+                 <P>(To Be A Specialist Soon)</P>
+             </div>
+         </div>
+        </div>
+    </div>
+
+
+    <div class="serve">
+        <p id="aa">| Our services</p> 
+        
+    </div>
+
+    <div class="news">
+        <p id="aa">| Our news</p> 
+    </div>
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 3500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      grabCursor:true,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+    </script>
+</body>
+
+</html>

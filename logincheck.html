@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JANAMSTHAN</title>
+    <link rel="stylesheet" href="logincheck.css">
+    
+</head>
+<body>
+    <div class="whole">
+        <span>
+            <div class="right">
+                <h3 id="heading">Welcome To JANAMSTHAN</h3>
+                <div class="quote">
+                    <h4>“He who has health has hope and he who has hope has everything.”</h4>
+                    <h4 id="flrt">– Arabian Proverb.</h4>
+                </div>
+            </div>
+        </span>
+        <span>
+            <div class="left">
+                <h3>Sign In</h3>
+                <div class="form">
+                    <input type="text" placeholder="your name" class="input"><br>
+                    <input type="password" placeholder="your password" class="input">
+                </div>
+                <div class="sign">
+                    <button onclick="verifyLogin()">Sign In</button>
+                </div>
+                <div id="forgot">
+                    <a href="#">forgot password</a>
+                    <p>Don't have an account yet?  <a href="signup_page.html">sign up</a></p>
+                </div>
+            </div>
+        </span>
+    </div>
+    <script>
+        function verifyLogin() {
+            // Get the username and password input fields
+            var username = document.querySelector('input[type="text"]').value;
+            var password = document.querySelector('input[type="password"]').value;
+
+            // Check if the entered username and password are correct
+            if (username === "123aman" && password === "aman123") {
+                // Redirect to the homepage upon successful login
+                window.location.href = "homepage.html";
+            } else {
+                // Display an error message or perform other actions
+                alert("Incorrect username or password. Please try again.");
+            }
+        }
+    </script>
+</body>
+</html>

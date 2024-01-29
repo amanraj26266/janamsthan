@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quick support</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            
+            height: 100vh;
+            background-color: aliceblue;
+            background-image: url("https://source.unsplash.com/random/doctor");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        nav {
+            list-style-type: none;
+            display: flex;
+            justify-content: space-evenly;
+
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: rgb(165, 182, 18);
+        }
+
+        input {
+            text-align: right;
+            padding-right: 10px;
+            border-radius: 10px;
+            width: 110px;
+            background-color: rgb(197, 212, 212);
+        }
+
+        #logo {
+            color: brown;
+            font-size: large;
+            font-family: fantasy;
+        }
+
+        #logo:hover {
+            color: rgb(41, 153, 14);
+        }
+        .whole{
+            border: 2px solid blue;
+            margin : 20px;
+            
+        }
+        #title{
+            text-align: center;
+            color: darkorange;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <nav>
+                <li id="logo">JANAMSTHAN</li>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Quick Support</a></li>
+                <input type="text" placeholder="search">
+            </nav>
+        </div>
+        <div class="whole">
+            <h3 id="title">contact us</h3>
+            <div class="row g-3">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                </div>
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                </div>
+              </div><br>
+              <div class="row g-3">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="" aria-label="First name">
+                </div>
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                </div>
+              </div><br>
+              <div class="row g-3">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                </div>
+                
+              </div>
+    
+        </div>
+    </div>
+    
+</body>
+</html>
